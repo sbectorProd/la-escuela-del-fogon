@@ -16,7 +16,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='bg-amber-50'>
+    <html lang="en" className='bg-amber-50 dark:bg-slate-500'>
       <body className={degheest.className}>{children}</body>
     </html>
   )
