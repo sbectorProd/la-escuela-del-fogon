@@ -1,10 +1,11 @@
-import Image from 'next/image'
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-24">
-      <h1 className='p-4'>La escuela del fogón</h1>
-      <h2>En construcción...</h2>
+    <main className="flex min-h-screen flex-col flex-wrap items-center justify-center">
+      <div className="max-w-lg">
+        <h1 className="text-7xl text-black text-justify leading-tight">LA ESCUELA DEL FOGÓN
+          <span className="w-full inline-block leading-4"></span></h1>
+        <h2 className="text-lg text-center">COCINANDO LA REVOLUCIÓN EN AMÉRICA</h2>
+      </div>
     </main>
   )
 }

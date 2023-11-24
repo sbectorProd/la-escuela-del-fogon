@@ -1,12 +1,13 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
+import localFont from 'next/font/local'
 
-const inter = Inter({ subsets: ['latin'] })
+const degheest = localFont ({ src:'./fonts/Director-Regular.woff2' })
+
 
 export const metadata: Metadata = {
   title: 'La escuela del fogón',
-  description: 'Cocinar la revolución en américa',
+  description: 'Cocinando la revolución en américa',
 }
 
 export default function RootLayout({
@@ -15,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="en" className='bg-amber-50'>
+      <body className={degheest.className}>{children}</body>
     </html>
   )
 }
