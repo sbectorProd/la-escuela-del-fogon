@@ -16,8 +16,8 @@ export default function Fig1() {
                     [FIG 01]
                     <br />
                     <span className="font-bold">FOGÓN;</span> Can be translated into english
-                    as "hearth", but it doesn't fully
-                    capture the complete meaning of the word. "fogón" refers to a large fire, a structure
+                    as &quot;hearth&quot;, but it doesn't fully
+                    capture the complete meaning of the word. &quot;fogón&quot; refers to a large fire, a structure
                     for cooking, and a gathering space.
                 </p>
             </div>
