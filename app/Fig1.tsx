@@ -2,8 +2,8 @@ import Image from "next/image"
 
 export default function Fig1() {
     return (
-        <div className="relative flex flex-col items-center w-full h-[400px] my-10">
-            <div className="">
+        <div className="relative flex flex-col items-center w-full">
+            <div className="w-[300] md:w-[318px]">
                 <Image
                     src="/images/fogon1hq.png"
                     width={1080}
@@ -12,9 +12,9 @@ export default function Fig1() {
                     priority
                 />
             </div>
-            <p className="absolute left-0 top-0">fig 1</p>
-            <div className="absolute bottom-0 right-0">
-                <p className="text-[8px] w-[176px] font-thin">
+            <p className="absolute left-0 top-0 text-[10px]">fig 1</p>
+            <div className="w-full">
+                <p className="text-[8px] w-[176px] md:w-[318px] font-thin">
                     [FIG 01]
                     <br />
                     <span className="font-bold">FOGÓN;</span> Can be translated into english
