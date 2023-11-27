@@ -13,7 +13,7 @@ export default function Fig1() {
                 />
             </div>
             <p className="absolute left-0 top-0 text-[10px]">fig 1</p>
-            <div className="w-full">
+            <div className="w-full py-6">
                 <p className="text-[8px] w-[176px] md:w-[318px] font-thin">
                     [FIG 01]
                     <br />
