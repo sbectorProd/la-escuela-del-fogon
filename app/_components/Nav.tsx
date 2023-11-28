@@ -47,7 +47,7 @@ const MenuItem = ({ item }: { item: NavItem }) => {
                     >
                         <div className="flex flex-row space-x-4 items-center">
                             {item.icon}
-                            <span className="font-semibold text-[16px]  flex">{item.title}</span>
+                            <span className="font-thin text-[14px]  flex">{item.title}</span>
                         </div>
 
                         <div className={`${subMenuOpen ? 'rotate-180' : ''} flex`}>
@@ -62,10 +62,10 @@ const MenuItem = ({ item }: { item: NavItem }) => {
                                     <Link
                                         key={idx}
                                         href={subItem.path}
-                                        className={`${subItem.path === pathname ? 'font-bold' : ''
+                                        className={`${subItem.path === pathname ? 'text-[#BC6E33]' : ''
                                             }`}
                                     >
-                                        <span className="text-[12px]">{subItem.title}</span>
+                                        <span className="font-thin text-[12px]">{subItem.title}</span>
                                     </Link>
                                 );
                             })}
@@ -79,7 +79,7 @@ const MenuItem = ({ item }: { item: NavItem }) => {
                         }`}
                 >
                     {item.icon}
-                    <span className="font-semibold [text-16px] flex">{item.title}</span>
+                    <span className="font-thin text-[14px] flex">{item.title}</span>
                 </Link>
             )}
         </div>
