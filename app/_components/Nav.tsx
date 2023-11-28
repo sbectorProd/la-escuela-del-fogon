@@ -42,7 +42,7 @@ const MenuItem = ({ item }: { item: NavItem }) => {
                 <>
                     <button
                         onClick={toggleSubMenu}
-                        className={`flex flex-row items-center p-2 rounded-lg hover-bg-zinc-100 w-full justify-between hover:bg-zinc-100 ${pathname.includes(item.path) ? 'bg-zinc-100' : ''
+                        className={`flex flex-row items-center p-2 rounded-lg hover-bg-[#F2F4E0] w-full justify-between hover:bg-[#F2F4E0] ${pathname.includes(item.path) ? 'bg-[#F2F4E0]' : ''
                             }`}
                     >
                         <div className="flex flex-row space-x-4 items-center">
@@ -62,7 +62,7 @@ const MenuItem = ({ item }: { item: NavItem }) => {
                                     <Link
                                         key={idx}
                                         href={subItem.path}
-                                        className={`${subItem.path === pathname ? 'text-[#BC6E33]' : ''
+                                        className={`${subItem.path === pathname ? 'text-[#797F65]' : ''
                                             }`}
                                     >
                                         <span className="font-thin text-[12px]">{subItem.title}</span>
@@ -75,7 +75,7 @@ const MenuItem = ({ item }: { item: NavItem }) => {
             ) : (
                 <Link
                     href={item.path}
-                    className={`flex flex-row space-x-4 items-center p-2 rounded-lg hover:bg-zinc-100 ${item.path === pathname ? 'bg-zinc-100' : ''
+                    className={`flex flex-row space-x-4 items-center p-2 rounded-lg hover:bg-[#F2F4E0] ${item.path === pathname ? 'bg-[#F2F4E0]' : ''
                         }`}
                 >
                     {item.icon}

@@ -2,7 +2,7 @@ import Image from "next/image"
 
 export default function Fig1() {
     return (
-        <div className="relative flex flex-col items-center w-full">
+        <div className="text-[#797F65] relative flex flex-col items-center w-full">
             <div className="w-[300] md:w-[318px]">
                 <Image
                     src="/images/fogon1hq.png"
