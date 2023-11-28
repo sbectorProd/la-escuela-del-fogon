@@ -16,7 +16,6 @@ export default function Nav() {
                     href="/"
                     className="flex flex-row space-x-3 items-center justify-center md:justify-start md:px-6 border-b border-zinc-200 h-12 w-full"
                 >
-                    <span className="h-7 w-7 bg-zinc-300 rounded-lg" />
                     <span className="font-bold text-[12px] hidden md:flex">LA ESCUELA DEL FOGON</span>
                 </Link>
 
@@ -63,7 +62,7 @@ const MenuItem = ({ item }: { item: NavItem }) => {
                                     <Link
                                         key={idx}
                                         href={subItem.path}
-                                        className={`${subItem.path === pathname ? 'text-red-700' : ''
+                                        className={`${subItem.path === pathname ? 'font-bold' : ''
                                             }`}
                                     >
                                         <span className="text-[12px]">{subItem.title}</span>
