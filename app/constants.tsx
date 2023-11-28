@@ -10,7 +10,7 @@ export const NAV_ITEMS: NavItem[] = [
     {
         title: 'nosotros',
         path: '/about',
-        icon: <Icon icon='lucide:help-circle' width='18' height='18' />
+        icon: <Icon icon='lucide:info' width='18' height='18' />
     },
     {
         title: 'proyectos',
@@ -20,5 +20,10 @@ export const NAV_ITEMS: NavItem[] = [
         subMenuItems: [
             {title: '→ Cocinar la revolución en América', path: '/proyectos/cocinar-la-rev'}
         ]
+    },
+    {
+        title: 'contacto',
+        path: '/contacto',
+        icon: <Icon icon='lucide:plug-2' width='18' height='18' />
     }
 ]
