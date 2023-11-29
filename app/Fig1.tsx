@@ -17,10 +17,8 @@ export default function Fig1() {
                 <p className="text-[8px] w-[176px] md:w-[318px] font-thin">
                     [FIG 01]
                     <br />
-                    <span className="font-bold">FOGÓN;</span> Can be translated into english
-                    as &quot;hearth&quot;, but it doesn&apos;t fully
-                    capture the complete meaning of the word. &quot;fogón&quot; refers to a large fire, a structure
-                    for cooking, and a gathering space.
+
+                    La palabra <span className="font-bold">&quot;FOGÓN&quot;</span> se refiere a un fuego grande, una estructura para cocinar y un espacio de reunión.
                 </p>
             </div>
         </div>

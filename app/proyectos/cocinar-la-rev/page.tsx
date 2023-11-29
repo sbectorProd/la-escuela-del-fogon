@@ -29,10 +29,6 @@ export default function CocinandoPage() {
                 <br />
                 <br />
                 Ante el despojo y la violencia, hay quienes cocinan para compartir, pertenecer y resistir.
-                <br />
-                <br />
-                Dea López
-                Curadora
             </p>
         </section>
     )

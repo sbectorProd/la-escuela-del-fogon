@@ -16,7 +16,7 @@ export default function Nav() {
                     href="/"
                     className="flex flex-row space-x-3 items-center justify-center md:justify-start md:px-6 border-b border-zinc-200 h-12 w-full"
                 >
-                    <span className="font-bold text-[12px] hidden md:flex">LA ESCUELA DEL FOGON</span>
+                    <span className="font-bold text-[12px] hidden md:flex">LA ESCUELA DEL FOGÓN</span>
                 </Link>
 
                 <div className="flex flex-col space-y-2 md:px-6 ">
