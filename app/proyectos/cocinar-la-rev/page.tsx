@@ -1,3 +1,6 @@
+import Button from "@/app/_components/Button";
+import Link from "next/link";
+
 export default function CocinandoPage() {
     return (
         <section id="about" className="bg-[#BC6E33] text-white w-full py-14 px-8 lg:py-32 lg:px-40 min-h-screen flex flex-col place-content-center overflow-hidden">
@@ -30,6 +33,18 @@ export default function CocinandoPage() {
                 <br />
                 Ante el despojo y la violencia, hay quienes cocinan para compartir, pertenecer y resistir.
             </p>
+            <div className="p-10 m-auto">
+                <Link href={'/proyectos/cocinar-la-rev/archivo'}>
+                    <Button>
+                        Archivo
+                    </Button>
+                </Link>
+                <Link href={'/proyectos/cocinar-la-rev/fogon'}>
+                    <Button>
+                        Fogón
+                    </Button>
+                </Link>
+            </div>
         </section>
     )
 }
