@@ -1,6 +1,9 @@
+import Link from "next/link"
+import Button from "@/app/_components/Button"
+
 export default function ArchivoPage() {
     return (
-        <section id="about" className="bg-[#FCC981] w-full py-14 px-8 lg:px-40 min-h-screen flex flex-col place-content-center overflow-hidden">
+        <section id="about" className="bg-[#d19465] w-full py-14 px-8 lg:px-40 min-h-screen flex flex-col place-content-center overflow-hidden">
 
             <>
                 <h1>Archivo</h1>
@@ -37,6 +40,13 @@ export default function ArchivoPage() {
                     Chile
                 </p>
             </>
+            <div className="p-4 m-auto">
+                <Link href={'/proyectos/cocinar-la-rev'}>
+                    <Button>
+                        Regresar
+                    </Button>
+                </Link>
+            </div>
         </section>
     )
 }

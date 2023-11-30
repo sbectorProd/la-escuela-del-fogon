@@ -33,7 +33,7 @@ export default function CocinandoPage() {
                 <br />
                 Ante el despojo y la violencia, hay quienes cocinan para compartir, pertenecer y resistir.
             </p>
-            <div className="p-10 m-auto">
+            <div className="p-6 m-auto">
                 <Link href={'/proyectos/cocinar-la-rev/archivo'}>
                     <Button>
                         Archivo
